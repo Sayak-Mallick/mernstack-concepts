@@ -148,3 +148,6 @@ vite.config.ts.timestamp-*
 
 // ignore any yarn.lock in all the folders
 **/yarn.lock
+
+// ignore any node modules in all the folders
+**/node_modules
