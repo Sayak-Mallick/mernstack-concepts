@@ -3,6 +3,7 @@ import FirstHook from "./components/FirstHook";
 import USEContext from "./components/USEContext";
 import USEEffect from "./components/USEEffect";
 import USEReducer from "./components/USEReducer";
+import USERef from "./components/USERef";
 
 const App = () => {
   return (
@@ -15,6 +16,8 @@ const App = () => {
       <ButtonComponent />
       <br />
       <USEReducer />
+      <br />
+      <USERef />
     </div>
   );
 };
